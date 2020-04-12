@@ -1,9 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InSign">
+    tools:context=".InSign"
+    android:background="@color/black"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blog8"
+        android:alpha=".35"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:padding="10dp"
+            android:text="@string/wel_signup"
+            android:textColor="@color/blog_color"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="180dp"
+            android:fontFamily="@font/imprima"
+            android:gravity="center"
+            android:text="@string/wel_desc"
+            android:textAlignment="center"
+            android:textColor="@color/wel_desc"
+            android:textSize="21sp"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="italic"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_login"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/email_hint"
+            android:paddingStart="14dp"
+            android:layout_marginTop="25dp"
+            android:paddingEnd="14dp"
+            android:textColorHint="@color/white"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--        password edit text -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_login"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_hint"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColorHint="@color/white"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/login_login"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/in_sign"
+            android:background="@drawable/in_sign_des"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/backtoregi"
+        android:text="@string/batcktoregi"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

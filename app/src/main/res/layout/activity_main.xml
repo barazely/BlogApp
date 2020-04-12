@@ -7,6 +7,27 @@
     android:background="@drawable/blog6"
     tools:context=".MainActivity">
 
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/imprima"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="@string/wel_desc"
+        android:textAlignment="center"
+        android:textColor="@color/main"
+        android:textSize="23sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/up_sign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_welcome"
+        app:layout_constraintVertical_bias="0.756" />
+
     <Button
         android:id="@+id/in_sign"
         android:layout_width="180dp"
@@ -43,7 +64,7 @@
         android:padding="16dp"
         android:text="@string/welcome"
         android:textColor="@color/welcome"
-        android:textSize="60sp"
+        android:textSize="70sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/up_sign"
         app:layout_constraintEnd_toEndOf="parent"

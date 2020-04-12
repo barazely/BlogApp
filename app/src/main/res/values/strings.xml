@@ -10,4 +10,11 @@
     <string name="email_hint">email address</string>
     <string name="username_signup">username</string>
     <string name="fullname_hint">fullname</string>
+    <string name="backtolog">Already have account!</string>
+    <string name="batcktoregi">Dont have account? SignUp</string>
+    <string name="content">post image</string>
+    <string name="barazeli">Barazeli</string>
+    <string name="comment">write a comment</string>
+    <string name="btn_add_post">Share Post</string>
+    <string name="addnewpost">New Post</string>
 </resources>

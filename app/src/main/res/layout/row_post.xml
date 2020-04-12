@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="1dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/img_post"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blog8"
+        android:contentDescription="@string/content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_post_comment"
+        android:text="@string/barazeli"
+        android:textSize="19sp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_post"
+            android:text="@string/barazeli"
+            android:textSize="14sp"
+            android:padding="6dp"
+            android:layout_marginStart="15dp"
+            />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
