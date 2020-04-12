@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">BlogApp</string>
+    <string name="up_sign">Sign Up</string>
+    <string name="in_sign">Sign In</string>
+    <string name="welcome">BlogApp</string>
+    <string name="wel_signup">BlogApp</string>
+    <string name="wel_desc">From breaking news and entertainment to sports and politics, from big events to everyday interests. If it\'s happening anywhere, it\'s happening on Blogger</string>
+    <string name="username_hint">"username "</string>
+    <string name="password_hint">password</string>
+    <string name="email_hint">email address</string>
+    <string name="username_signup">username</string>
+    <string name="fullname_hint">fullname</string>
 </resources>
