@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "319336714132",
+    "firebase_url": "https://blogapp-ef3b1.firebaseio.com",
+    "project_id": "blogapp-ef3b1",
+    "storage_bucket": "blogapp-ef3b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319336714132:android:6db991bd9bd3caf1ad0981",
+        "android_client_info": {
+          "package_name": "com.barazeli.blogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319336714132-ab89diph69ajv5ongl95sdcm9cj41si2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0cJ5WG6_fbBWoBX5rkVOhF0jMDd4cyGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319336714132-ab89diph69ajv5ongl95sdcm9cj41si2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
